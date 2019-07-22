@@ -4,12 +4,12 @@ class navbar extends Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li>About</li>
-                    <li>Live</li>
-                    <li>Merch</li>
-                    <li>Social</li>
-                    <li>Contact</li>
+                <ul className='primaryNav'>
+                    <a href="#">About</a>
+                    <a href="#">Live</a>
+                    <a href="#">Merch</a>
+                    <a href="#">Social</a>
+                    <a href="#">Contact</a>
                 </ul>
             </div>
         );
