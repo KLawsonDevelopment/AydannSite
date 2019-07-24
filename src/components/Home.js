@@ -38,11 +38,8 @@ class Home extends Component {
                 <h1>Hello World-Home</h1>
                 <iframe
                     src={this.state.videoURL}
-                    height="360"
-                    width="640"
-                    autoPlay={false}
-                    scrolling='no'
-                    allowFullScreen={true}
+                    height="540"
+                    width="960"
                     >
                 </iframe>
             </div>
