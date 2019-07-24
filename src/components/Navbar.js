@@ -5,7 +5,8 @@ class navbar extends Component {
         return (
             <div>
                 <ul className='primaryNav'>
-                    <a href="#">About</a>
+                    <a href='/'>Home</a>
+                    <a href="/about">About</a>
                     <a href="#">Live</a>
                     <a href="#">Merch</a>
                     <a href="#">Social</a>
