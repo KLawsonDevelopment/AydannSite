@@ -15,7 +15,7 @@ class Home extends Component {
 
     getTwitchData = async () => {
         try {
-            let twitchData = await axios.get(`https://api.twitch.tv/helix/clips?broadcaster_id=${this.state.aydannId}`, {
+            let twitchData = await axios.get(`https://api.twitch.tv/helix/clips?broadcaster_id=${this.state.aydannId}&first=50`, {
                 headers: {
                     'Client-ID': 'lhlcb1t0eush1tatlq131n32d0zxp4'
                 }
