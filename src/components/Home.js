@@ -20,7 +20,7 @@ class Home extends Component {
                     'Client-ID': 'lhlcb1t0eush1tatlq131n32d0zxp4'
                 }
             })
-            let randomClip=Math.floor(Math.random() * 20)
+            let randomClip=Math.floor(Math.random() * 50)
             this.setState({
                 videoURL: `https://clips.twitch.tv/embed?clip=${twitchData.data.data[randomClip].id}`
             })
