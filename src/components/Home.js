@@ -40,9 +40,10 @@ class Home extends Component {
                     src={this.state.videoURL}
                     height="360"
                     width="640"
-                    frameBorder="0"
-                    scrolling="no"
-                    allowFullScreen={true}>
+                    autoPlay={false}
+                    scrolling='no'
+                    allowFullScreen={true}
+                    >
                 </iframe>
             </div>
         );
