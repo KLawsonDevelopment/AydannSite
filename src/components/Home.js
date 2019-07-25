@@ -20,11 +20,11 @@ class Home extends Component {
                     'Client-ID': 'lhlcb1t0eush1tatlq131n32d0zxp4'
                 }
             })
-            let randomClip=Math.floor(Math.random() * 50)
+            let randomClip = Math.floor(Math.random() * 50)
             this.setState({
                 videoURL: `https://clips.twitch.tv/embed?clip=${twitchData.data.data[randomClip].id}`
             })
-            
+
             console.log(twitchData.data.data[randomClip])
         }
         catch (err) {
@@ -35,13 +35,14 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Hello World-Home</h1>
-                <iframe
-                    src={this.state.videoURL}
-                    height="540"
-                    width="960"
+                <div className='twitchClip'>
+                    <iframe
+                        src={this.state.videoURL}
+                        height="540"
+                        width="960"
                     >
-                </iframe>
+                    </iframe>
+                </div>
             </div>
         );
     }

@@ -18,3 +18,9 @@
   color:red;
   background-color: black;
 }
+
+.twitchClip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
