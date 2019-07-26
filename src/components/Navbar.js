@@ -7,7 +7,7 @@ class navbar extends Component {
                 <ul className='primaryNav'>
                     <a href='/'>Home</a>
                     <a href="/about">About</a>
-                    <a href="#">Live</a>
+                    <a href="https://www.twitch.tv/aydann">Twitch</a>
                     <a href="#">Merch</a>
                     <a href="#">Social</a>
                     <a href="#">Contact</a>
