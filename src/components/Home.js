@@ -24,8 +24,6 @@ class Home extends Component {
             this.setState({
                 videoURL: `https://clips.twitch.tv/embed?clip=${twitchData.data.data[randomClip].id}`
             })
-
-            console.log(twitchData.data.data[randomClip])
         }
         catch (err) {
             console.log(err)

@@ -6,7 +6,7 @@
   width: 100vw;
 }
 
-.primaryNav a{
+.primaryNav a {
   font-size: 25px;
   text-decoration: none;
   color: black;
@@ -14,8 +14,8 @@
   width: auto;
 }
 
-.primaryNav a:hover{
-  color:red;
+.primaryNav a:hover {
+  color: red;
   background-color: black;
 }
 
@@ -23,4 +23,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  width: 350px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.aboutMeInfo {
+  font-size: 28px;
+  margin: 5px;
 }

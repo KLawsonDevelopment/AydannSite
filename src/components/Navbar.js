@@ -8,9 +8,9 @@ class navbar extends Component {
                     <a href='/'>Home</a>
                     <a href="/about">About</a>
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
-                    <a href="#">Merch</a>
-                    <a href="#">Social</a>
-                    <a href="#">Contact</a>
+                    <a href="https://www.google.com">Merch</a>
+                    <a href="https://www.google.com">Social</a>
+                    <a href="https://www.google.com">Contact</a>
                 </ul>
             </div>
         );
