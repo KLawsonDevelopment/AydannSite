@@ -9,7 +9,17 @@ class navbar extends Component {
                     <a href="/about">About</a>
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
                     <a href="https://www.google.com">Merch</a>
-                    <a href="https://www.google.com">Social</a>
+                    <div className='dropdown'>
+                        <button className='social'>
+                            Social
+                    </button>
+                        <div className='socialDropdown'>
+                            <a href='https://www.youtube.com/aydann'>Youtube</a>
+                            <a href='https://discord.gg/bAXwzVh'>Discord</a>
+                            <a href='https://www.instagram.com/aydannstreams/'>Instagram</a>
+                            <a href='https://twitter.com/aydannstreams'>Twitter</a>
+                        </div>
+                    </div>
                     <a href="https://www.google.com">Contact</a>
                 </ul>
             </div>

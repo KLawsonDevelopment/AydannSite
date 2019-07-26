@@ -7,7 +7,15 @@ class AboutMe extends Component {
             <div className='aboutMe'>
                 <img src={profile} alt="profile" className='profile'></img>
                 <div className='aboutMeInfo'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ad aspernatur libero natus maxime magnam earum molestias aperiam, molestiae minima vitae iure consectetur ducimus dignissimos ut voluptatem fugiat dolores.
+                    <p>
+                        Hiya, my name is Aydann! I am a 25 year old streamer and I currently live in Atlanta, GA!
+                    </p>
+                    <p>
+                        Business email: aydannstreams@gmail.com
+                    </p>
+                    <p>
+                        If you like my content, be sure to check out the people I call my friends!
+                    </p>
                 </div>
             </div>
         );
