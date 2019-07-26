@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class navbar extends Component {
-    
+
     DropdownFunction = () => {
-        document.getElementById('socialDropdown').classList.toggle('show')
+        document.getElementById('mySocialDropdown').classList.toggle('show')
     }
     
     render() {
@@ -15,10 +15,10 @@ class navbar extends Component {
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
                     <a href="https://www.google.com">Merch</a>
                     <div className='dropdown'>
-                        <button className='social' onMouseOver={this.DropdownFunction()}>
+                        <button className='social' onClick={this.DropdownFunction}>
                             Social
-                    </button>
-                        <div className='socialDropdown' id='socialDropdown'>
+                        </button>
+                        <div id="mySocialDropdown" className='socialDropdown'>
                             <a href='https://www.youtube.com/aydann'>Youtube</a>
                             <a href='https://discord.gg/bAXwzVh'>Discord</a>
                             <a href='https://www.instagram.com/aydannstreams/'>Instagram</a>
