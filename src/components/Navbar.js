@@ -15,7 +15,7 @@ class navbar extends Component {
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
                     <a href="https://streamlabs.com/aydann1/#/merch">Merch</a>
                     <div className='dropdown'>
-                        <button className='social' onClick={this.DropdownFunction}>
+                        <button className='social' onMouseOver={this.DropdownFunction}>
                             Social
                         </button>
                         <div id="mySocialDropdown" className='socialDropdown'>
