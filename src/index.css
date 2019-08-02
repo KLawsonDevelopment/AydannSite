@@ -4,6 +4,9 @@
   list-style-type: none;
   border: 1px solid black;
   width: 97%;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: auto;
 }
 
 .primaryNav a {
