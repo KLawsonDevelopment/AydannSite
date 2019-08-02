@@ -25,7 +25,6 @@ class navbar extends Component {
                             <a href='https://twitter.com/aydannstreams'>Twitter</a>
                         </div>
                     </div>
-                    <a href="https://www.google.com">Contact</a>
                 </ul>
             </div>
         );
