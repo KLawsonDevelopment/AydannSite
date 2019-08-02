@@ -5,7 +5,7 @@ class navbar extends Component {
     DropdownFunction = () => {
         document.getElementById('mySocialDropdown').classList.toggle('show')
     }
-    
+
     render() {
         return (
             <div>
