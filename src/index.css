@@ -26,6 +26,7 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
+  background-color: rgb(255,255,255)
 }
 
 .social:hover, .social:focus {
@@ -42,7 +43,7 @@
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -54,7 +55,7 @@
 }
 
 .socialDropdown a:hover {
-  background-color:#ddd;
+  background-color: #ddd;
 }
 
 .show {
@@ -91,20 +92,33 @@
 }
 
 @media screen and (max-width:750px) {
-  .primaryNav a{
-    font-size: 20px;
+  .primaryNav {
+    padding: 0;
   }
-
-  .primaryNav button {
-    font-size: 20px;
+  .primaryNav a {
+    font-size: 15px;
+    padding: 5px;
   }
-
-  .aboutMe{
+  .social {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+    width: auto;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255,255,255)
+  }
+  .aboutMe {
     display: flex;
     flex-direction: column;
   }
-
   .aboutMeInfo {
     font-size: 20px;
+  }
+
+  .profile {
+    width: 90vw;
   }
 }
