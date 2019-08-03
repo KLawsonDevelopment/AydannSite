@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(137, 207, 240, .7)
+}
+
 .primaryNav {
   display: flex;
   justify-content: space-evenly;
@@ -7,6 +11,7 @@
   margin: auto;
   margin-bottom: 16px;
   padding: auto;
+  background-color: rgba(29, 41, 81, .5)
 }
 
 .primaryNav a {
@@ -24,9 +29,9 @@
   padding: 20px;
   width: auto;
   text-decoration: none;
-  border: none;
+  border: 0;
   cursor: pointer;
-  background-color: rgb(255,255,255)
+  background-color: rgba(29, 41, 81, .5)
 }
 
 .social:hover, .social:focus {
