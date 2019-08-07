@@ -19,20 +19,7 @@ Adjusting the CSS, adding some animations in a later version, and getting approv
 Easiest place to find me is https://twitter.com/OzmaNeku
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## React Information
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
