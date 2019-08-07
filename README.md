@@ -1,3 +1,40 @@
+## Aydann's Site Source Code
+
+A basic website template created for the streamer Aydann.
+
+## Technologies used
+
+Javascript, React, Twitch API
+
+## Why Create This?
+
+Made for a close friend who allowed me to try and flex my brain a little bit to get back into coding. Will always be grateful for the chance to work on this.
+
+## What are you working on right now?
+
+Adjusting the CSS, adding some animations in a later version, and getting approval for the site before I start sending it to other people for review.
+
+## Where can I find your information?
+
+Easiest place to find me is https://twitter.com/OzmaNeku
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
