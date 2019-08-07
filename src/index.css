@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Players';
+  font-style: normal;
+  src: local('Players'), url('./components/fonts/players/Players.ttf') format('truetype');
+}
+
 body {
   background-color: rgba(137, 207, 240, .7)
 }
@@ -20,6 +26,7 @@ body {
   color: black;
   padding: 20px;
   width: auto;
+  font-family: 'Players';
 }
 
 .social {
@@ -31,7 +38,7 @@ body {
   border: 0;
   cursor: pointer;
   background: inherit;
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Players', sans-serif;
 }
 
 .social:hover, .social:focus {
