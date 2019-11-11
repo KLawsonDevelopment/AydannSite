@@ -16,6 +16,14 @@ class AboutMe extends Component {
                     <p>
                         If you like my content, be sure to check out the people I call my friends!
                     </p>
+
+                    <p>
+                        I am not just a streamer, but a creator. I am currently the host of an on-going podcast called Coffee & Creators. It is based after content creation and the journey of others who have found success.
+                    </p>
+
+                    <p>
+                        You can check out my podcast or catch one of my streams! I stream MWF and Saturday!
+                    </p>
                 </div>
             </div>
         );
