@@ -13,6 +13,15 @@ class navbar extends Component {
                     <a href='/'>Home</a>
                     <a href="/about">About</a>
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
+                    <div className='dropdown' onMouseOver={this.DropdownFunction} onMouseOut={this.DropdownFunction}>
+                        <button className='podcast'>
+                            Podcast
+                        </button>
+                        <div id="myPodcastDropdown" className='podcastDropdown'>
+                            <a href='https://open.spotify.com/show/0sI1pBrz7SCvQVAlzowy16?si=igsQz6BIQjWU9l38WaFVlA'>Spotify</a>
+                            <a href="https://podcasts.apple.com/us/podcast/coffee-creators/id1481503518?uo=4">iTunes</a>
+                        </div>
+                    </div>
                     <a href="https://streamlabs.com/aydann1/#/merch">Merch</a>
                     <div className='dropdown' onMouseOver={this.DropdownFunction} onMouseOut={this.DropdownFunction}>
                         <button className='social' >
