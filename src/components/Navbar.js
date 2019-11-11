@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 
 class navbar extends Component {
 
-    DropdownFunction = () => {
+    PodcastDropdown = () => {
+        document.getElementById('myPodcastDropdown').classList.toggle('show')
+    }
+
+    SocialDropdown = () => {
         document.getElementById('mySocialDropdown').classList.toggle('show')
     }
 
@@ -13,7 +17,7 @@ class navbar extends Component {
                     <a href='/'>Home</a>
                     <a href="/about">About</a>
                     <a href="https://www.twitch.tv/aydann">Twitch</a>
-                    <div className='dropdown' onMouseOver={this.DropdownFunction} onMouseOut={this.DropdownFunction}>
+                    <div className='dropdown' onMouseOver={this.PodcastDropdown} onMouseOut={this.PodcastDropdown}>
                         <button className='podcast'>
                             Podcast
                         </button>
@@ -23,7 +27,7 @@ class navbar extends Component {
                         </div>
                     </div>
                     <a href="https://streamlabs.com/aydann1/#/merch">Merch</a>
-                    <div className='dropdown' onMouseOver={this.DropdownFunction} onMouseOut={this.DropdownFunction}>
+                    <div className='dropdown' onMouseOver={this.SocialDropdown} onMouseOut={this.SocialDropdown}>
                         <button className='social' >
                             Social Media
                         </button>

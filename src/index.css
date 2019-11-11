@@ -41,7 +41,23 @@ body {
   font-family: 'Players', sans-serif;
 }
 
+.podcast {
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+  width: auto;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  background: inherit;
+  font-family: 'Players', sans-serif;
+}
+
 .social:hover, .social:focus {
+  background-color: #2980B9;
+}
+
+.podcast:hover, .podcast:focus {
   background-color: #2980B9;
 }
 
@@ -59,14 +75,34 @@ body {
   z-index: 1;
 }
 
+.podcastDropdown {
+  display: none;
+  position: absolute;
+  background-color: rgba(29, 41, 81);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
 .socialDropdown a {
-  color: rgb(176,223,229);
+  color: rgb(176, 223, 229);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.podcastDropdown a {
+  color: rgb(176, 223, 229);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .socialDropdown a:hover {
+  background-color: #ddd;
+}
+
+.podcastDropdown a:hover {
   background-color: #ddd;
 }
 
@@ -130,7 +166,6 @@ body {
   .aboutMeInfo {
     font-size: 20px;
   }
-
   .profile {
     width: 90vw;
   }
