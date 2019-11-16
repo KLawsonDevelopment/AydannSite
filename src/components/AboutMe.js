@@ -1,11 +1,22 @@
+// Import react and a picture to display user's face.
+
 import React, { Component } from 'react';
 import profile from './pictures/image0.jpg'
+
+// About Me class to display paragraphs for whatever user wanted to say.
 
 class AboutMe extends Component {
     render() {
         return (
+            // About Me class name to make sure things are spaced properly via CSS.
             <div className='aboutMe'>
+                
+                {/* Profile has been imported up top along with react. */}
+
                 <img src={profile} alt="profile" className='profile'></img>
+
+                {/* All the info about the user as he requested. */}
+
                 <div className='aboutMeInfo'>
                     <p>
                         Hiya, my name is Aydann! I am a 25 year old streamer and I currently live in Atlanta, GA!
